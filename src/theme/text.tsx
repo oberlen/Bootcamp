@@ -57,6 +57,13 @@ function Text(props: TextProps) {
           }}>
           {amount.value}
         </Text>
+        <Text
+          style={{
+            ...$base,
+            fontSize,
+          }}>
+          {amount.value}
+        </Text>
       </View>
     );
   }
