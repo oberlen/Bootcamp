@@ -1,0 +1,14 @@
+ios/*
+android/*
+node_modules
+jsconfig.json
+tsconfig.json
+.vscode/*
+*.config.js
+.eslintrc.js
+*.d.ts
+coverage-ts/*
+tests/**
+index.js
+src/constants/version.ts
+src/assets/**

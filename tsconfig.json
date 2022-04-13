@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "allowJs": false,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "target": "ESNext",
+    "typeRoots": ["./src/@types/*"]
+  },
+  "exclude": ["node_modules", "android/*", "ios/*", "metro.config.js", "jest.config.js", "babel.config.js", "index.js",  "**/*.test.ts", "**/*.test.tsx"]
+}
